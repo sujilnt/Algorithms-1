@@ -16,8 +16,8 @@
 */
 
 function Bubblesort(arr){
-    lengthOfArray=arr.length;
-    if(arr.lengthOfArray<2){
+    let lengthOfArray=arr.length;
+    if(lengthOfArray<2){
         return arr;
     }
 
