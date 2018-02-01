@@ -21,8 +21,8 @@ function Bubblesort(arr){
         return arr;
     }
 
-    for(let i=0;i<lengthOfArray;i++){
-        for(let j=0,temp=0;j<lengthOfArray;j++){
+    for(let i=0,j,temp=0;i<lengthOfArray;i++){
+        for(j=0;j<lengthOfArray;j++){
             if(arr[j]>arr[j+1]){
                 temp=arr[j];
                 arr[j]=arr[j+1];
